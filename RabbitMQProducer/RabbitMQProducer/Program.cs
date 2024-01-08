@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using RabbitMQ.Client;
+using RabbitMQProducer;
 using System.Text;
 
 var factory = new ConnectionFactory
@@ -15,8 +16,6 @@ channel.QueueDeclare(
     exclusive: false ,
     autoDelete: false,
     arguments: null);
-Console.WriteLine("started!");
-var message = new { Name = "Producer", Message = "Hello!" };
-var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(message));
-channel.BasicPublish("", "demo-queue-leason", null, body);
-Console.ReadLine();
+
+//QueueProducer.Publish(channel);
+DirectExchangePublisher.Publish(channel);
