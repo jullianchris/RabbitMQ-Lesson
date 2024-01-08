@@ -1,0 +1,17 @@
+C:\Projects\Public Projects\RabbitMQ\RabbitMQConsumer\RabbitMQConsumer\bin\Debug\net7.0\RabbitMQConsumer.exe
+C:\Projects\Public Projects\RabbitMQ\RabbitMQConsumer\RabbitMQConsumer\bin\Debug\net7.0\RabbitMQConsumer.deps.json
+C:\Projects\Public Projects\RabbitMQ\RabbitMQConsumer\RabbitMQConsumer\bin\Debug\net7.0\RabbitMQConsumer.runtimeconfig.json
+C:\Projects\Public Projects\RabbitMQ\RabbitMQConsumer\RabbitMQConsumer\bin\Debug\net7.0\RabbitMQConsumer.dll
+C:\Projects\Public Projects\RabbitMQ\RabbitMQConsumer\RabbitMQConsumer\bin\Debug\net7.0\RabbitMQConsumer.pdb
+C:\Projects\Public Projects\RabbitMQ\RabbitMQConsumer\RabbitMQConsumer\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Projects\Public Projects\RabbitMQ\RabbitMQConsumer\RabbitMQConsumer\obj\Debug\net7.0\RabbitMQConsumer.csproj.AssemblyReference.cache
+C:\Projects\Public Projects\RabbitMQ\RabbitMQConsumer\RabbitMQConsumer\obj\Debug\net7.0\RabbitMQConsumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Public Projects\RabbitMQ\RabbitMQConsumer\RabbitMQConsumer\obj\Debug\net7.0\RabbitMQConsumer.AssemblyInfoInputs.cache
+C:\Projects\Public Projects\RabbitMQ\RabbitMQConsumer\RabbitMQConsumer\obj\Debug\net7.0\RabbitMQConsumer.AssemblyInfo.cs
+C:\Projects\Public Projects\RabbitMQ\RabbitMQConsumer\RabbitMQConsumer\obj\Debug\net7.0\RabbitMQConsumer.csproj.CoreCompileInputs.cache
+C:\Projects\Public Projects\RabbitMQ\RabbitMQConsumer\RabbitMQConsumer\obj\Debug\net7.0\RabbitMQConsumer.csproj.CopyComplete
+C:\Projects\Public Projects\RabbitMQ\RabbitMQConsumer\RabbitMQConsumer\obj\Debug\net7.0\RabbitMQConsumer.dll
+C:\Projects\Public Projects\RabbitMQ\RabbitMQConsumer\RabbitMQConsumer\obj\Debug\net7.0\refint\RabbitMQConsumer.dll
+C:\Projects\Public Projects\RabbitMQ\RabbitMQConsumer\RabbitMQConsumer\obj\Debug\net7.0\RabbitMQConsumer.pdb
+C:\Projects\Public Projects\RabbitMQ\RabbitMQConsumer\RabbitMQConsumer\obj\Debug\net7.0\RabbitMQConsumer.genruntimeconfig.cache
+C:\Projects\Public Projects\RabbitMQ\RabbitMQConsumer\RabbitMQConsumer\obj\Debug\net7.0\ref\RabbitMQConsumer.dll
