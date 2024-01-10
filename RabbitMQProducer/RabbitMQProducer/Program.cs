@@ -1,7 +1,5 @@
-﻿using Newtonsoft.Json;
-using RabbitMQ.Client;
+﻿using RabbitMQ.Client;
 using RabbitMQProducer;
-using System.Text;
 
 var factory = new ConnectionFactory
 {
@@ -18,4 +16,7 @@ channel.QueueDeclare(
     arguments: null);
 
 //QueueProducer.Publish(channel);
-DirectExchangePublisher.Publish(channel);
+//DirectExchangePublisher.Publish(channel);
+//TopicExchangePublisher.Publish(channel);
+//HeaderExchangePublisher.Publish(channel);
+FanoutExchangePublisher.Publish(channel);

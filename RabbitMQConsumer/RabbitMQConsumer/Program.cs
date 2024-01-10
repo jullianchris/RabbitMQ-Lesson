@@ -1,7 +1,5 @@
 ﻿using RabbitMQ.Client;
-using RabbitMQ.Client.Events;
 using RabbitMQConsumer;
-using System.Text;
 
 var factory = new ConnectionFactory
 {
@@ -11,4 +9,7 @@ var factory = new ConnectionFactory
 using var connection = factory.CreateConnection();
 using var channel = connection.CreateModel();
 //QueueConsumer.Consume(channel);
-DirectExchangeConsumer.Consume(channel);
+//DirectExchangeConsumer.Consume(channel);
+//TopicExchangeConsumer.Consume(channel);
+//HeaderExchangeConsumer.Consume(channel);
+FanoutExchangeConsumer.Consume(channel);
