@@ -19,3 +19,33 @@ Similar to the producer, a connection is established, a channel is created, and 
 An eventing consumer (EventingBasicConsumer) is created, and the Received event is hooked up to handle incoming messages.
 The consumer subscribes to the queue using channel.BasicConsume(...).
 When a message is received, it is deserialized from the byte array, and the content is printed to the console.
+
+Exchanges in RabbitMQ play a crucial role in directing messages from producers to consumers. They act as routing mechanisms, determining how messages should be distributed among queues. RabbitMQ supports various types of exchanges, each serving different routing patterns.
+
+Types of Exchanges:
+
+Direct Exchange:
+
+Uses a routing key to determine the destination queue.
+Allows for precise routing based on an exact match between the routing key and queue binding.
+Topic Exchange:
+
+Similar to direct exchange but allows for pattern matching in the routing key.
+Enables more flexible routing based on wildcard patterns.
+Header Exchange:
+
+Routes messages based on header attributes rather than routing keys.
+Provides fine-grained control over message routing using headers.
+Fanout Exchange:
+
+Routes messages to all queues bound to it.
+Ignores routing keys and header attributes, broadcasting messages to all connected queues.
+Time to Live (TTL) Concept:
+
+Purpose: Specifies the duration a message is considered valid.
+Implementation:
+Set using the "x-message-ttl" attribute when declaring an exchange or queue.
+Defined in milliseconds, indicating the time a message is allowed to live.
+Expired messages are removed from the queue, preventing consumers from processing outdated data.
+Example:
+x-message-ttl: 30000 - Specifies a TTL of 30 seconds for messages.
